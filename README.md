@@ -7,7 +7,7 @@ A Laravel package that implements the Repository Pattern to provide a clean sepa
 Install the package via Composer:
 
 ```bash
-composer require rez1pro/repository-pattern
+composer require rez1pro/laravel-repository-pattern
 ```
 
 ## Configuration
