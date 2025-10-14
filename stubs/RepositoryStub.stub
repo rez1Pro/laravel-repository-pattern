@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Interfaces\{{ interface }}Interface;
+
+class {{ class }}Repository implements {{ interface }}Interface
+{
+    // e.g. public function all();
+}
