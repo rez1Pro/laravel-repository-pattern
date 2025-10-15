@@ -57,7 +57,7 @@ class CreateInterface extends Command implements PromptsForMissingInput
             $namespace .= '\\' . implode('\\', $namespaceParts);
         }
 
-        $stub = file_get_contents(base_path('RepositoryPattern/stubs/InterfaceStub.stub'));
+        $stub = file_get_contents(__DIR__ . '/../../../stubs/InterfaceStub.stub');
         $stub = str_replace('{{ class }}', $className, $stub);
         $stub = str_replace('{{ namespace }}', $namespace, $stub);
 

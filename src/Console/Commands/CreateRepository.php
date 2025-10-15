@@ -54,7 +54,8 @@ class CreateRepository extends Command implements PromptsForMissingInput
             $namespace .= '\\' . implode('\\', $namespaceParts);
         }
 
-        $stub = file_get_contents(base_path('RepositoryPattern/stubs/RepositoryStub.stub'));
+        $stub = file_get_contents(__DIR__ . '/../../../stubs/RepositoryStub.stub');
+
         $stub = str_replace('{{ class }}', $className, $stub);
         $stub = str_replace('{{ namespace }}', $namespace, $stub);
         $stub = str_replace('{{ interface }}', $createInterface, $stub);
