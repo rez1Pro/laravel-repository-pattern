@@ -1,6 +1,6 @@
 {
     "name": "rez1pro/laravel-repository-pattern",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "description": "A Laravel package to implement the repository pattern in your applications.",
     "type": "library",
     "license": "MIT",
